@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import Navbar from './modules/Navbar/Navbar.jsx';
 /*
 function App() {
   return (
@@ -30,7 +31,11 @@ function App() {
 
   return(
     <>
-    Hola mundo
+    <Navbar></Navbar>
+    <header className="App-header">
+      
+    </header>
+        
     </>
   )
 }
