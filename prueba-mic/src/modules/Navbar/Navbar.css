@@ -16,11 +16,15 @@ a {
 
 .NavContainer {
     padding: .4rem;
+    width: 100%;
     background-color: #131e29;
     display: flex;
+    position: static;
     align-items: center;
     justify-content: space-between;
     color: #fff;
+    position: fixed;
+    z-index: 100;
     /*Color a la letra*/
 }
 
@@ -28,30 +32,30 @@ a {
 
     .links {
         position: absolute;
-        top: -700px;
         left: -2000px;
         margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+       /* margin-right: auto;*/
+       /* text-align: center;*/
         list-style: none;
     }
 
     a {
         color: #000000;
         text-decoration: none;
-        margin: auto;
-        font-size: 30px;
+        margin: 1rem;
+        font-size: 20px;
         display: block;
     }
-
+/*----------------------------*/
     .links.active {
-        width: 100%;
+        min-width: 20%;
+        min-height: 300px;
         display: block;
         position: absolute;
-        margin: auto;
-        top: 30%;
+        top: 70px;
         left: 0;
-        right: 0;
+        right: 1;
+        background-color: #fff;
     }
 
     .Burger {
@@ -65,6 +69,12 @@ a {
 
     .active>li{
         text-decoration: none;
+    }
+    .definition{
+        color: #000000;
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
 }
@@ -108,7 +118,13 @@ a {
       float: left;
       width: auto;
     }
-
+/*--------------------------*/
+    .Hello{
+        display: none;
+    }
+    .definition{
+        display: none;
+    }
     .Color-red{
         color: red;
     }
@@ -225,3 +241,11 @@ a {
     }
 
 }
+
+/*
+.contenido{
+    padding-left: 20%;
+    padding-right:20%;
+    padding-top: 10%;
+}
+*/
