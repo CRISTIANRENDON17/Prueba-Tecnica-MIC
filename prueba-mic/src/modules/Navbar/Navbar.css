@@ -1,0 +1,251 @@
+.h2 {
+    font-weight: 400;
+}
+
+.span {
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 25px auto;
+}
+
+.NavContainer {
+    padding: .4rem;
+    width: 100%;
+    background-color: #131e29;
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: fixed;
+    z-index: 100;
+    /*Color a la letra*/
+}
+
+@media(max-width: 1135px) {
+
+    .links {
+        position: absolute;
+        left: -2000px;
+        margin-left: auto;
+       /* margin-right: auto;*/
+       /* text-align: center;*/
+        list-style: none;
+    }
+
+    a {
+        color: #000000;
+        text-decoration: none;
+        margin: 1rem;
+        font-size: 20px;
+        display: block;
+    }
+/*----------------------------*/
+    .links.active {
+        min-width: 20%;
+        min-height: 300px;
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 1;
+        background-color: #fff;
+    }
+
+    .Burger {
+        display: block;
+    }
+
+    .logo_movies {
+        width: 130px;
+        margin-left: 25%;
+    }
+
+    .active>li{
+        text-decoration: none;
+    }
+    .definition{
+        color: #000000;
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media(max-width:1380px) {
+    .img-Movies-search {
+        margin: auto;
+        display: none;
+    }
+}
+
+@media(max-width:1135px) {
+    .img-Movies-compra {
+        height: 40px;
+    }
+
+    .img-Movies-person {
+        height: 40px;
+    }
+
+    .img-Movies {
+        width: 150px;
+    }
+}
+
+/*si el se queda activado*/
+.links.active li ul li a{
+    display: none;
+}
+.links.active li ul li{
+    display: none;
+}
+
+
+@media(min-width: 1135px) {
+    
+    .r-ul{
+        list-style-type: none;
+    }
+    .r-Li{
+      float: left;
+      width: auto;
+    }
+/*--------------------------*/
+    .Hello{
+        display: none;
+    }
+    .definition{
+        display: none;
+    }
+    .Color-red{
+        color: red;
+    }
+
+    .logo_movies {
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+        margin-left: 3rem;
+        font-weight: bold;
+
+        /*   margin: 2rem;
+        font-size: 30px;*/
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .links.active {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .Burger {
+        display: none;
+    }
+
+    .img-Movies {
+        width: auto;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .img-Movies-search {
+        margin: 1rem;
+        height: 60%;
+    }
+
+    .img-Movies-person {
+        margin: 1rem;
+        height: 60%;
+    }
+
+    .img-Movies-compra {
+        margin: 1rem;
+        height: 60%;
+    }
+
+    /*---------------------------------------------------*/
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    .nav>li {
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+
+    .nav li a:hover {
+        color: red;
+    }
+
+    .nav li ul {
+        display: none;
+        position: absolute;
+        min-width: 200px;
+        min-height: 200px;
+        background-color: #fff;
+        margin: auto;
+    }
+
+    .nav li ul a {
+        font-size: 18px;
+        color: #000000;
+        margin-left: 5rem;
+        margin-right: 10rem;
+        margin-top: 1rem;
+    }
+
+    .mujer {
+        font-weight: bold;
+        font-size: 25px;
+        color: red;
+        margin-left: 5rem;
+        margin-right: 48rem;
+        margin-top: 1rem;
+    }
+
+    .nav li:hover>ul {
+        display: block;
+    }
+
+    .nav li ul li {
+        position: relative;
+    }
+
+}
+
+/*
+.contenido{
+    padding-left: 20%;
+    padding-right:20%;
+    padding-top: 10%;
+}
+*/
