@@ -6,11 +6,12 @@
     object-fit: cover;
   }
   .Tamaño-heigth{
-   width: 100%;
+   width: 80%;
+   margin: 0.5rem;
   }
   .Tamaño-width{
     top:-30px;
-    width: 70%;
+    width: 80%;
     transition: 0.5ms;
     overflow: hidden;
     border-radius: 10px;
@@ -32,44 +33,36 @@
   
   @media(max-width: 1135px) {
     /*Cuando la pagina hace responsive*/
-    .Box-10{
+    .Box-20{
       width: 0%;
       display: none;
     }
-    .Box-56{
-      width: 64%;
+    .Box-80{
+      width: 100%;
       margin: 1%;
       display: flex;
       justify-content: center;
       height: 20%;
       align-items: center;
       position: relative;
-    }
-    .Box-34{
-      width: 36%;
-      margin: 1%;
     }
   }
   
   @media(min-width: 1135px) {
     /*cuando la pagina no hace el response*/
-    .Box-10{
-      width: 10%;
+    .Box-20{
+      width: 20%;
       margin: 1%;
     }
-    .Box-56{
+    .Box-80{
       position: relative;
-      width: 56%;
+      width: 80%;
       margin: 1%;
       display: flex;
       justify-content: center;
       height: 20%;
       align-items: center;
       position: relative;
-    }
-    .Box-34{
-      width: 34%;
-      margin: 1%;
     }
     .Fecla-center-heigth{
       text-align: center;
