@@ -1,0 +1,38 @@
+.Container-add{
+    width: 90%;
+    display: block;
+}
+
+.container-ref{
+    display: flex;
+}
+.correr-izq-ref{
+    margin-left: 5%;
+}
+.correr-arriba-30px{
+    position: relative;
+    top: -30px;
+}
+.Cuadrado{
+    position: relative;
+    top: -30px;
+    width: 100%;
+}
+.Cuadado-pintado{
+    display: inline;
+    margin: 0.5rem;
+    background-color: #131e29;
+    color: #fff;
+    text-align: center;
+    border: 3px solid #131e29;
+    border-width:3px solid #131e29 ;
+}
+.Cuadado-NO-Pintado{
+    display: inline;
+    margin: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border:none;
+}
+
