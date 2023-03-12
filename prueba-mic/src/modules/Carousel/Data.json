@@ -1,0 +1,47 @@
+[
+    {
+        "'id":1,
+        "name":"CHAQUETA GÉNERO NEUTRO, CAQUI CON CIERRE DE MANDALORIAN",
+        "description":"¡El estilo que cautivará su clóset! Una chaqueta ideal para acompañar sus ocasiones más especiales y lucir muy cool. Cuenta con cierre en frente para más practicidad y comodidad. Bolsillos laterales y cuello redondo que lo harán sentir cómodo y lleno de confort. Estampado posterior, mangas y en el frente. Cuello, puños y ruedo en contraste. Perfecta para combinar con jean y tenis.",
+        "maker":"Colombia - FABRICANTE/IMPORTADOR: Maquila Internacional de confección",
+        "value":259990,
+        "discount":10,
+        "url":[
+            {
+                "id":1,
+                "nameFoto":"Foto 1",
+                "url": "./Foto-1.png"
+            },
+            {
+                "id":2,
+                "nameFoto":"Foto 2",
+                "url": "./Foto-2.png"
+            },
+            {
+                "id":3,
+                "nameFoto":"Foto 3",
+                "url": "./Foto-3.png"
+            },
+            {
+                "id":4,
+                "nameFoto":"Foto 4",
+                "url": "./Foto-4.png"
+            },
+            {
+                "id":5,
+                "nameFoto":"Foto 5",
+                "url": "./Foto-5.png"
+            },
+            {
+                "id":6,
+                "nameFoto":"Foto 6",
+                "url": "./Foto-6.png"
+            },
+            {
+                "id":7,
+                "nameFoto":"Foto 7",
+                "url": "./Foto-7.png"
+            }
+        ]
+    }
+]

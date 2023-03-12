@@ -1,41 +1,14 @@
 //import logo from './logo.svg';
 import './App.css';
 import Navbar from './modules/Navbar/Navbar.jsx';
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
-
-*/
-
+import Carousel from './modules/Carousel/Carousel.jsx';
 function App() {
 
   return(
     <>
     <Navbar></Navbar>
-    <header className="App-header">
-      
-    </header>
-        
+    <div className="Box-collaider-navbar"></div>
+    <Carousel></Carousel> 
     </>
   )
 }
