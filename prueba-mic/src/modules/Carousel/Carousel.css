@@ -1,0 +1,86 @@
+.Container-Carousel {
+    background-color:#fff;
+    width: 98%;
+    margin-left: 1%;
+    display: flex;
+    object-fit: cover;
+  }
+  .Tamaño-heigth{
+   width: 100%;
+  }
+  .Tamaño-width{
+    top:-30px;
+    width: 70%;
+    transition: 0.5ms;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .Tamaño-width:hover{
+    transform: scale(1.1);
+  }
+
+  .Fecla-center-width{
+    text-align: center;
+    font-size: 28px;
+    color: #3da1ff;
+    border-radius:10px;
+    border: none;
+    z-index:3;
+    max-height: 34px;
+  }
+
+  
+  @media(max-width: 1135px) {
+    /*Cuando la pagina hace responsive*/
+    .Box-10{
+      width: 0%;
+      display: none;
+    }
+    .Box-56{
+      width: 64%;
+      margin: 1%;
+      display: flex;
+      justify-content: center;
+      height: 20%;
+      align-items: center;
+      position: relative;
+    }
+    .Box-34{
+      width: 36%;
+      margin: 1%;
+    }
+  }
+  
+  @media(min-width: 1135px) {
+    /*cuando la pagina no hace el response*/
+    .Box-10{
+      width: 10%;
+      margin: 1%;
+    }
+    .Box-56{
+      position: relative;
+      width: 56%;
+      margin: 1%;
+      display: flex;
+      justify-content: center;
+      height: 20%;
+      align-items: center;
+      position: relative;
+    }
+    .Box-34{
+      width: 34%;
+      margin: 1%;
+    }
+    .Fecla-center-heigth{
+      text-align: center;
+      margin-left: 35%;
+      font-size: 28px;
+      color: #3da1ff;
+      border-radius:10px;
+      border: none;
+    }
+    .Fecla-center:hover{
+      background-color: #5b5b5b;
+    }
+  }
+  
