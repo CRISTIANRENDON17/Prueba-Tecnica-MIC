@@ -1,0 +1,14 @@
+.Container-general-footer{
+    width: 100%;
+    position: relative;
+    top: 21px;
+}
+.box-footer{
+    width: 100%;
+    background-color: #131e29;
+    color: #fff;
+    height: auto;
+}
+.box-footer h2,h3{
+    text-align: center;
+}

@@ -4,7 +4,7 @@ import "./Add.css";
 const Add = () => {
 
     const Data = require("../Database/Data.json"); //se trae la data del .json
-    const { id, licencia, ref, name, description, maker, value, discount, careful,discover_more,composition } = Data[0]; //desestrucuracion de datos
+    const {licencia, ref, name, description, maker, value, discount, careful,discover_more,composition } = Data[0]; //desestrucuracion de datos
     const [Cuadrado, setCuadrado] = React.useState("S");
     const [Cantidad,setCantidad] = React.useState(1);
     const [AlertaAña, setAlertaAña] = React.useState(false);
@@ -22,7 +22,7 @@ const Add = () => {
     return (
         <>
             <div className='Container-add'>
-                <div><h3>{name}</h3></div>
+                <div><h3 className="Correr-izq">{name}</h3></div>
                 <div className="container-ref correr-arriba-30px"><h5>{licencia}</h5> <h6 className="correr-izq-ref">{ref}{Cuadrado}</h6></div>
                 <div className="correr-izq-ref correr-arriba-30px"><h3 className="tachar">${value}</h3><h3 className="no-tachar">${value*discount}</h3></div>
                 <div className="Cuadrado">
