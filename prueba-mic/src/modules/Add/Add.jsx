@@ -23,8 +23,9 @@ const Add = () => {
         <>
             <div className='Container-add'>
                 <div><h3 className="Correr-izq">{name}</h3></div>
-                <div className="container-ref correr-arriba-30px"><h5>{licencia}</h5> <h6 className="correr-izq-ref">{ref}{Cuadrado}</h6></div>
-                <div className="correr-izq-ref correr-arriba-30px"><h3 className="tachar">${value}</h3><h3 className="no-tachar">${value*discount}</h3></div>
+                <div className="container-ref "><h5 className="correr-izq-ref">{licencia}</h5> <h6 className="correr-izq-ref">{ref}{Cuadrado}</h6></div>
+                <div className="correr-izq-ref "><h3 className="tachar">${value}</h3><h3 className="no-tachar">${value*discount}</h3></div>
+                <div className="box-collairder"></div>
                 <div className="Cuadrado">
                     <button className={`${Cuadrado === "S" ? 'Cuadado-pintado' : 'Cuadado-NO-Pintado'}`} onClick={() => { setCuadrado("S") }} >S</button>
                     <button className={`${Cuadrado === "M" ? 'Cuadado-pintado' : 'Cuadado-NO-Pintado'}`} onClick={() => { setCuadrado("M") }} >M</button>

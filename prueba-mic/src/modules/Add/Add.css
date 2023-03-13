@@ -6,14 +6,20 @@
     text-align: left;
 }
 .container-ref {
-    display: flex;
+    display: block;
+    height: 50px;
 }
 
 .correr-izq-ref {
-    display: flex;
+    display: block;
     position: relative;
     width: 100%;
     display: inline;
+    margin: 1rem;
+}
+.box-collairder{
+    width: 100%;
+    height: 60px;
 }
 
 .correr-arriba-30px {
@@ -23,6 +29,7 @@
 
 .Cuadrado {
     width: 100%;
+    height: 60px;
 }
 
 .Cuadado-pintado {
@@ -144,6 +151,8 @@
     border: none;
     height: 50px;
     background-color: #fff;
+}
+.sub-box-general-producto button h3{
     text-align: left;
 }
 
