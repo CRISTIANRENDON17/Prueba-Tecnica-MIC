@@ -5,7 +5,7 @@ const ImagenesFolder = require.context("../../modules/Carousel/img", true);
 
 
 const Carousel = () => {
-    const Data = require("./Data.json"); //se trae la data del .json
+    const Data = require("../Database/Data.json"); //se trae la data del .json
     const imagen = Data.map(data => data.url); 
     const url = imagen[0].map(data => data.url);//se saca el array donde estan los objetos con las urls
     
