@@ -1,69 +1,92 @@
-.Container-add{
+.Container-add {
     width: 90%;
     display: block;
 }
-
-.container-ref{
+.Correr-izq{
+    text-align: left;
+}
+.container-ref {
     display: flex;
 }
-.correr-izq-ref{
-    margin-left: 5%;
+
+.correr-izq-ref {
+    display: flex;
+    position: relative;
+    width: 100%;
+    display: inline;
 }
-.correr-arriba-30px{
+
+.correr-arriba-30px {
     position: relative;
     top: -30px;
 }
-.Cuadrado{
+
+.Cuadrado {
     width: 100%;
 }
-.Cuadado-pintado{
+
+.Cuadado-pintado {
     display: inline;
     margin: 0.5rem;
     background-color: #131e29;
     color: #fff;
     text-align: center;
     border: 3px solid #131e29;
-    border-width:3px solid #131e29 ;
+    border-width: 3px solid #131e29;
 }
-.Cuadado-NO-Pintado{
+
+.Cuadado-NO-Pintado {
     display: inline;
     margin: 0.5rem;
     background-color: #fff;
     color: #000;
     text-align: center;
-    border:none;
+    border: none;
 }
-.tachar{
-    text-decoration:line-through;
-    position: relative;
-    display: inline;
-    margin: 1rem;
-}
-.no-tachar{
+
+.tachar {
+    text-decoration: line-through;
     position: relative;
     display: inline;
     margin: 1rem;
 }
 
-.box-general-añadir{
+.no-tachar {
+    position: relative;
+    display: inline;
+    margin: 1rem;
+}
+@media(max-width: 600px) {
+    .tachar {
+        margin: 1rem;
+        display: block;
+    }
+
+    .no-tachar {
+        margin: 1rem;
+        display: block;
+    }
+}
+
+.box-general-añadir {
     display: inline;
     width: 100%;
-    
+
 }
 
-.box-sumar-añadir{
+.box-sumar-añadir {
     display: inline;
     position: relative;
     width: 30%;
 }
 
-.box-button-añadir{
+.box-button-añadir {
     display: inline;
     position: relative;
     width: 70%;
 }
 
-.box-sumar-añadir button{
+.box-sumar-añadir button {
     display: inline;
     margin: 0.5rem;
     background-color: #ffffff;
@@ -71,7 +94,8 @@
     text-align: center;
     border: none;
 }
-.box-sumar-añadir h5{
+
+.box-sumar-añadir h5 {
     font-size: 16px;
     display: inline;
     background-color: #ffffff;
@@ -80,7 +104,7 @@
     border: 6px solid #ffffff;
 }
 
-.box-button-añadir button{
+.box-button-añadir button {
     display: inline;
     width: 70%;
     margin: 0.5rem;
@@ -88,11 +112,11 @@
     color: #fff;
 }
 
-.Alerta-box-false{
+.Alerta-box-false {
     display: none;
 }
 
-.Alerta-box-true{
+.Alerta-box-true {
     background-color: #131e29;
     color: #fff;
     position: relative;
@@ -101,35 +125,38 @@
 
 }
 
-.descripcion-producto{
+.descripcion-producto {
     width: 100%;
 }
 
-.line-hr{
+.line-hr {
     color: #000000;
     display: block;
-   
+
 }
 
-.sub-box-general-producto{
+.sub-box-general-producto {
     width: 100%;
 }
-.sub-box-general-producto button{
+
+.sub-box-general-producto button {
     width: 100%;
     border: none;
     height: 50px;
-    background-color: #fff;   
+    background-color: #fff;
     text-align: left;
 }
-.sub-box-general-producto button:hover{
-    background-color: #9a9a9a; 
+
+.sub-box-general-producto button:hover {
+    background-color: #9a9a9a;
 }
 
-.Texto-Abierto{
+.Texto-Abierto {
     display: block;
     text-align: justify;
     font-weight: normal;
 }
-.Texto-Oculto{
+
+.Texto-Oculto {
     display: none;
 }
